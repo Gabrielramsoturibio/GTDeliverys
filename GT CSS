@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcf6f6;
+}
+
+header {
+    background-color: #0350f5; /* Cor principal do iFood */
+    color: rgb(240, 230, 230);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+nav.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(10, 134, 236);
+    border-bottom: 2px solid #ddd;
+    margin: 15px;
+}
+
+.tab-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active,
+.tab-button:hover {
+    background-color: #0386f1;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.tab-content {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.tab-content h2 {
+    margin-top: 0;
+}
