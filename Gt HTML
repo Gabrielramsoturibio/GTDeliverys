@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site de Delivery</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>GT Deliverys</h1>
+	</header>
+	<nav class="tabs">
+		<button class="tab-button" onclick="openTab('home')">Início</button>
+		<button class="tab-button" onclick="openTab('restaurants')">Restaurantes</button>
+		<button class="tab-button" onclick="openTab('orders')">Pedidos</button>
+		<button class="tab-button" onclick="openTab('profile')">Perfil</button>
+	</nav>
+	<main>
+		<div class="tab-content" id="home">
+			<h2>Bem-vindo ao nosso app de delivery!</h2>
+			<p>Explore nossos recursos e descubra o que temos a oferecer.</p>
+		</div>
+
+
+		<div class="tab-content" id="restaurants" style="display: none;">
+			<h2>Restaurantes</h2>
+			<p>Veja a lista de restaurantes disponíveis.</p>
+		</div>
+
+	
+		<div class="tab-content" id="orders" style="display: none;">
+			<h2>-pizza-</h2>
+			<p>Gerencie seus pedidos aqui.<div class="menu-item">
+	<img src="https://www.designi.com.br/images/preview/10072903.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1080px; height: 246px; margin: 0px; width: 368px;" alt="Pizza De Calabresa 1 Imagem JPG [download] - Designi" jsname="kn3ccd" aria-hidden="false">
+				<h3>Pizza Pepperoni</h3>
+				<p>Tomate, muçarela e pepperoni.</p>
+				<p>R$ 40,00</p>
+				<button onclick="addToCart('Pizza Pepperoni', 40)">Adicionar ao Carrinho</button>
+			</div></p>
+		</div>
+
+			<div class="tab-content" id="orders" style="display: none;">
+				<h2>-pizza-</h2>
+				<p>Gerencie seus pedidos aqui.<div class="menu-item">
+						<img src="https://www.designi.com.br/images/preview/10072903.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1080px; height: 246px; margin: 0px; width: 368px;" alt="Pizza De Calabresa 1 Imagem JPG [download] - Designi" jsname="kn3ccd" aria-hidden="false">
+						<h3>Pizza Pepperoni</h3>
+						<p>Tomate, muçarela e pepperoni.</p>
+						<p>R$ 40,00</p>
+						<button onclick="addToCart('Pizza Pepperoni', 40)">Adicionar ao Carrinho</button>
+					</div>
+				</p>
+			</div>
+    
+			<div class="tab-content" id="orders" style="display: none;">
+				<h2>Pedidos</h2>
+				<p>Gerencie seus pedidos aqui<div class="menu-item">
+		
+    <div class="menu-item">
+					<img src="images/pizza-pepperoni.jpg" alt="Pizza Pepperoni">
+					<h3>Pizza Pepperoni</h3>
+					<p>Tomate, muçarela e pepperoni.</p>
+					<p>R$ 40,00</p>
+					<button onclick="addToCart('Pizza Pepperoni', 40)">Adicionar ao Carrinho</button>
+				</div>
+		<div class="tab-content" id="profile" style="display: none;">
+			<h2>Perfil</h2>
+			<p>Atualize suas informações pessoais.</p>
+		</div>
+
+
+	</main>
+	<script src="scripts.js"></script>
+</body>
+
+</html>
